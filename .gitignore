@@ -1,0 +1,11 @@
+.DS_Store
+.svn
+.ipynb*
+__pycache__/
+*.py[cod]
+*.[oa]
+*.out
+*.so
+Technosphere/BigData/*/*.npz
+Technosphere/BigData/kaggle/logs
+Technosphere/DataAnalysis/Project/
