@@ -62,7 +62,7 @@ class DecisionTree(Tree):
                 n_r = ys.size - n_l
                 
                 crit = (n_l * g_l + n_r * g_r) / ys.size
-                if crit < min_info:
+                if crit < min_info and j[argindx[k]] < j[argindx[k + 1]]:
                     min_info = crit
                     min_g_l = g_l
                     min_g_r = g_r
@@ -82,7 +82,7 @@ class DecisionTree(Tree):
                     g_r = 1 - (((s_r + 1) ** 2) * (1 - g_r) - 2 * x_r[y] - 1) / (s_r ** 2)
                     
                     crit = (n_l * g_l + n_r * g_r) / ys.size
-                    if crit < min_info:
+                    if crit < min_info and j[argindx[k]] < j[argindx[k + 1]]:
                         min_info = crit
                         min_g_l = g_l
                         min_g_r = g_r
