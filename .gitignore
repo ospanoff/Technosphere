@@ -6,6 +6,7 @@ __pycache__/
 *.[oa]
 *.out
 *.so
-Technosphere/BigData/*/*.npz
-Technosphere/BigData/kaggle/logs
-Technosphere/DataAnalysis/Project/
+BigData/*/*.npz
+BigData/kaggle/logs
+DataAnalysis/Project/
+Technosphere-mp
