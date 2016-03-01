@@ -9,3 +9,4 @@ __pycache__/
 Technosphere/BigData/*/*.npz
 Technosphere/BigData/kaggle/logs
 Technosphere/DataAnalysis/Project/
+Technosphere-mp
